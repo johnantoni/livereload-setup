@@ -12,7 +12,7 @@ guard 'pow', cli: '--notify false', restart_on_start: true, restart_on_reload: f
   watch('lib/routes/**/*.rb')
 end
 
-guard 'livereload', host: 'tutorbuddies.dev' do
+guard 'livereload', host: 'powapp.dev' do
   watch(%r{app/controllers/.+\.(rb)$})
   watch(%r{app/models/.+\.(rb)$})
   watch(%r{app/helpers/.+\.rb})
